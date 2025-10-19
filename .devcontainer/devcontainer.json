@@ -8,6 +8,8 @@
   "overrideCommand": false
 
    ,
+
+  
  // Add the IDs of extensions you want installed when the container is created.
  "customizations": {
      "vscode": {
@@ -21,4 +23,6 @@
          ]
      }
  }
+   ,
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
